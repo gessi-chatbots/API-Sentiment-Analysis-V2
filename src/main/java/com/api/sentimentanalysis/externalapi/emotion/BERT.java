@@ -64,7 +64,6 @@ public class BERT implements EmotionAnalysisAPI
                     .build();
 
             Response response = client.newCall(request).execute();
-            System.out.println(response);
             return response.body().string();
         } else
         {
