@@ -17,7 +17,7 @@ public class BERT implements EmotionAnalysisAPI
     private String apiKey;
     private Boolean bert;
     private final Properties properties = PropertiesConfig.readProperties();
-    private final String baseUrl = properties.getProperty("host") +  properties.getProperty("BERT_PORT") + "/bert/v1/";
+    private final String baseUrl = properties.getProperty("host") +  ":" + properties.getProperty("BERT_PORT") + "/bert/v1/";
 
     /**
      * Constructor.
