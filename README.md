@@ -63,3 +63,10 @@ http://gessi-sw.essi.upc.edu:8080/sentiment-analysis-api/
 - BETO: `emotion?tool=BETO`
 - SVC: `emotion?tool=SVC`
 - ParallelDots: `emotion?tool=ParallelDots`
+
+
+## How to deploy
+1. 
+    `docker build -t api_sentiment_analyisis:latest .`
+2. 
+    `docker run -d --name API_Sentiment_Analyisis -p 3005:3005 api_sentiment_analyisis:latest`
