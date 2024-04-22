@@ -12,10 +12,10 @@
 
     <groupId>com.api</groupId>
     <artifactId>sentimentanalysis</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>sentimentanalysis</name>
-    <description>A RESTFull API for sentiment analysis in Spanish.</description>
+    <description>A RESTFull API for sentiment analysis.</description>
 
     <properties>
         <java.version>1.8</java.version>
